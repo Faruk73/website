@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+} 
+
+/* Header Css Start */
+
+.fixed-with {
+    width: 1270px;
+    margin: auto;
+}
+
+.header {
+    background-color: #16a085;
+}
+.header-left {
+    float: left;
+    width: 30%;
+}
+
+.header-left img {
+    width: 248px;
+    height: auto;
+}
+
+.header-right {
+    float: right;
+    width: 70%;
+}
+.header-right ul {
+    text-align: right;
+    list-style: none;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    text-decoration: none;
+    color:#fff;
+    display:block;
+    padding: 0 30px;
+    font-size: 20px;
+    border-right: 1px solid #ddd;
+    line-height: 70px;
+    transition: .5s;
+}
+.header-right ul li a:hover {
+    background-color:#1abc9c;
+}
+
+/* Header Css Start */
+
+/* Banner Css Start */
+
+.fixed-with {
+    width: 1100px;
+    margin: auto;
+}
+
+.banner {
+    background-image: url(https://irs.www.warnerbros.com/hero-banner-jpeg/movies/media/browser/the_shawshank_redemption_25th_banner.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+.banner-caption h1 {
+    color: #fff;
+    background-color: rgba(26, 188, 150,.6);
+    max-width: 500px;
+    margin: auto;
+    padding: 10px 0;
+    font-size: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.banner-caption h2 {
+    color: #fff;
+    background-color: rgba(204, 46, 46,.7) ;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 34px;
+    border-radius: 5px;
+}
+
+/* Banner Css End */
+
+.about {
+    margin-top: 60px;
+}
+.about h2 {
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 19px;
+}
+
+/* Service Start */
+
+.service {
+    margin-top: 60px;
+}
+.service-item {
+    float: left;
+    width: 31.3%;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 25px 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: rgba(45, 52, 54,.1)
+}
+.service-item span {
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: red;
+    color: #fff;
+    margin: auto;
+    font-size: 35px;
+    line-height: 66px;
+    border-radius: 20px 0 20px 0;
+}
+
+.service-item h3 {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+/* Service End */
+
+/* blog Start */
+
+.blog-container {
+    margin-top: 60px;
+}
+
+.blog-left-content {
+    width: 70%;
+    float: left;
+}
+
+.blog-item {
+    margin-bottom: 30px;
+}
+.blog-item img {
+    width: auto;
+    height: 162px;
+    float: left;
+    margin-right: 15px;
+}
+
+/* blog End */
+
+/* Notice Start */
+
+.notice-right-content {
+    width: 25%;
+    float: right;
+}
+
+.notice-right-content h2 {
+    font-size: 32px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    color:#d63031;
+}
+.notice-right-content ul {
+    list-style: none;
+}
+.notice-right-content ul li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 9px;
+    font-size: 20px;
+    background: #2d3436;
+    color:#ddd;
+    border-radius: 5px;
+}
+
+/* Notice end */
+
+/* footer start */
+
+.footer {
+    background-color: #34495e;
+    color: #fff;
+    padding: 15px 0;
+}
+.footer-left {
+    float: left;
+    width: 40%;
+}
+.footer-right {
+    float: right;
+    width: 60%;
+}
+.social-menu {
+    text-align: right;
+}
+.social-menu li {
+    display: inline-block;
+}
+.social-menu li a {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+/* footer end */
